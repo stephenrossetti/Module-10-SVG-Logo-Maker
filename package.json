@@ -1,0 +1,7 @@
+//npm install jest//
+
+{
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
