@@ -8,42 +8,34 @@ let {Circle, Triangle, Square} = require('./lib/shapes');
 
 // Initiate the questions and SVG logo maker//
 
-let generateLogo = () => {
+let init = () => {
     inquirer.prompt(questions)
         .then((data) => {
-            switch (`${data.shape}`) {
-                case 'Circle':
-                    let circle = new Circle(data.text, data.textColor, data.shapeColor)
-                    fs.writeFile("examples/logo.svg", circle.createCircle(), (err) => {
-                        if (err) {
-                            console.error(err);
-                        } else {
-                            console.log('Circle logo has been made!');
-                        }
-                    });
+            console.log('SVG file being created...');
+            switch (data.shape) {
+                case 'circle':
+                    console.log('Circle was chosen...');
+                    let circle = new Circle(data.text, data.textColor, data.shape, data.shapeColor)
+                    fs.writeFile("examples/logo.svg", circle.createCircle(), (err) => 
+                        err ? console.error(err) : console.log('Generated logo.svg!')
+                        );
                     break;
-                case 'Triangle':
-                    let triangle = new Triangle(data.text, data.textColor, data.shapeColor)
-                    fs.writeFile("examples/logo.svg", triangle.createTriangle(), (err) => {
-                        if (err) {
-                            console.error(err);
-                        } else {
-                            console.log('Triangle logo has been made!');
-                        }
-                    });
+                case 'triangle':
+                    console.log('Triangle was chosen...');
+                    let triangle = new Triangle(data.text, data.textColor, data.shape, data.shapeColor)
+                    fs.writeFile("examples/logo.svg", triangle.createTriangle(), (err) =>
+                        err ? console.error(err) : console.log('Generated logo.svg!')
+                        );
                     break;
-                case 'Square':
-                    let square = new Square(data.text, data.textColor, data.shapeColor)
-                    fs.writeFile("examples/logo.svg", square.createSquare(), (err) => {
-                        if (err) {
-                            console.error(err);
-                        } else {
-                            console.log('Square logo has been made!');
-                        }
-                    });
+                case 'square':
+                    console.log('Square was chosen...');
+                    let square = new Square(data.text, data.textColor, data.shape, data.shapeColor)
+                    fs.writeFile("examples/logo.svg", square.createSquare(), (err) =>
+                    err ? console.error(err) : console.log('Generated logo.svg!')
+                    );
                     break;
             }
         });
 }
 
-generateLogo();
+init();
