@@ -1,4 +1,4 @@
 <svg width="300" height="200" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="150" cy="100" r="100" fill="Black"/>
-    <text x="150" y="100" font-size="50" font-weight="100" dominant-baseline="middle" text-anchor="middle" fill="Brown">POO</text>
+    <polygon points="150,0 0,200 300,200" fill="Purple"/>
+    <text x="150" y="100" font-size="50" font-weight="100" dominant-baseline="middle" text-anchor="middle" fill="#64FF33">cat</text>
     </svg>
