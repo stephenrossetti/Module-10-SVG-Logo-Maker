@@ -1,4 +1,11 @@
 {
+  "name": "module-10-challenge-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "fs": "^0.0.1-security",
     "inquirer": "^8.2.6",
