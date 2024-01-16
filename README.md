@@ -16,7 +16,7 @@ Create new repository and begin code from scratch by creating a main index.js fi
 
 ## Usage
 
-To view the walkthrough, open the HTML link here: https://drive.google.com/file/d/125YMKv1TsMCuFh7ljg6tBIUp89SSi-Um/view.
+To view the walkthrough, open the HTML link here: https://drive.google.com/file/d/1lPz0HPJyYcYVyeWPH6e9tK5HYVBynwTC/view.
 
 To view the sample logo, open the HTML link here: https://github.com/stephenrossetti/Module-10-SVG-Logo-Maker/blob/main/examples/logo.svg.
 
