@@ -12,9 +12,9 @@ Create new repository and begin code from scratch by creating a main index.js fi
 
 ## Mock-Up
 
-![alt text](https://github.com/stephenrossetti/Module-10-SVG-Logo-Maker/blob/main/assets/MockUp1.png)
-![alt text](https://github.com/stephenrossetti/Module-10-SVG-Logo-Maker/blob/main/assets/MockUp2.png)
-![alt text](https://github.com/stephenrossetti/Module-10-SVG-Logo-Maker/blob/main/assets/MockUp3.png)
+![alt text](https://github.com/stephenrossetti/Module-10-SVG-Logo-Maker/blob/main/examples/MockUp1.png)
+![alt text](https://github.com/stephenrossetti/Module-10-SVG-Logo-Maker/blob/main/examples/MockUp2.png)
+![alt text](https://github.com/stephenrossetti/Module-10-SVG-Logo-Maker/blob/main/examples/MockUp3.png)
 
 ## Usage
 
