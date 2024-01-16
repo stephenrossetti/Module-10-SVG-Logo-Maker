@@ -1,7 +1,5 @@
 # SVG Logo Maker (Mod-10-Challenge)
 
-# Professional README Generator (Mod-9-Challenge)
-
 ## Description
 
 Object-oriented Programming Challenge: SVG Logo Maker, or Module 10's Challenge, is to build a Node.js command-line application that takes in user input to generate a logo and save it as an SVG file. The command-line application will ask for a shape (circle, triangle, or square), shape color (or hexadecimal), text (up to 3 characters), and a text color. This challenge will test our ability to utilize the command-line and node.js, constructors, tests, use inquirer and jest, and generating SVG files.
